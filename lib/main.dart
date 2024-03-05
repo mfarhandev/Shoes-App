@@ -7,7 +7,6 @@ import 'package:shose_app/view/splash_screen.dart';
 
 
 void main(){
-  
    runApp(MyApp());
 }
 

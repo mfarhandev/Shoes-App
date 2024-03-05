@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer.periodic(Duration(seconds: 3), (timer) {
+    Future.delayed(Duration(seconds: 3)).then((value) {
       Get.off(HomeScreen());
     });
   }
